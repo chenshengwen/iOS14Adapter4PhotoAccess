@@ -2,6 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>你可以分享相机胶卷中的照片、将照片保存</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>你可以分享相机胶卷中的照片</string>
+    <key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
+    <false/>
+
+    
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

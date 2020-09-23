@@ -24,6 +24,18 @@
 
 #pragma mark - 单选
 
+/**
+ UIImagePickerController
+ */
+- (UIImagePickerController *)picker
+{
+    if (!_picker) {
+        _picker = [[UIImagePickerController alloc]init];
+    }
+    return _picker;
+}
+
+
 - (IBAction)openPickerAciton:(id)sender
 {
     self.isDoing = NO;
@@ -117,7 +129,7 @@
     }
 }
 
-#pragma mark -代理
+#pragma mark -UIImagePickerController处理代理
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info
 {
@@ -131,6 +143,7 @@
 {
     [picker dismissViewControllerAnimated:YES completion:nil];
 }
+#pragma mark - 处理PHPickerViewController代理
 
 - (void)picker:(PHPickerViewController *)picker didFinishPicking:(NSArray<PHPickerResult *> *)results API_AVAILABLE(ios(14)) {
     [picker dismissViewControllerAnimated:YES completion:nil];
@@ -151,15 +164,5 @@
          }];
      }
 }
-#pragma mark - 图片选择
-
-- (UIImagePickerController *)picker
-{
-    if (!_picker) {
-        _picker = [[UIImagePickerController alloc]init];
-    }
-    return _picker;
-}
-
 
 @end
