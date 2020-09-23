@@ -14,6 +14,7 @@
 		04822EC3251AEEB2009B7BE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04822EC2251AEEB2009B7BE7 /* Assets.xcassets */; };
 		04822EC6251AEEB2009B7BE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04822EC4251AEEB2009B7BE7 /* LaunchScreen.storyboard */; };
 		04822EC9251AEEB2009B7BE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04822EC8251AEEB2009B7BE7 /* main.m */; };
+		04822ED2251AEEE3009B7BE7 /* PickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04822ED0251AEEE3009B7BE7 /* PickerVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		04822EC5251AEEB2009B7BE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04822EC7251AEEB2009B7BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04822EC8251AEEB2009B7BE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04822ED0251AEEE3009B7BE7 /* PickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerVC.m; sourceTree = "<group>"; };
+		04822ED1251AEEE3009B7BE7 /* PickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerVC.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				04822EB6251AEEAF009B7BE7 /* AppDelegate.h */,
+				04822ED1251AEEE3009B7BE7 /* PickerVC.h */,
+				04822ED0251AEEE3009B7BE7 /* PickerVC.m */,
 				04822EB7251AEEAF009B7BE7 /* AppDelegate.m */,
 				04822EB9251AEEAF009B7BE7 /* SceneDelegate.h */,
 				04822EBA251AEEAF009B7BE7 /* SceneDelegate.m */,
@@ -148,6 +153,7 @@
 				04822EBE251AEEAF009B7BE7 /* ViewController.m in Sources */,
 				04822EB8251AEEAF009B7BE7 /* AppDelegate.m in Sources */,
 				04822EC9251AEEB2009B7BE7 /* main.m in Sources */,
+				04822ED2251AEEE3009B7BE7 /* PickerVC.m in Sources */,
 				04822EBB251AEEAF009B7BE7 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
