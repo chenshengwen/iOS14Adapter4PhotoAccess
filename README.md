@@ -4,3 +4,4 @@ iOS14相册权限适配 ：Limited Photo Access模式、PHAccessLevel（请求�
 
 # iOS14Adapter4PhotoAccess
 # iOS14Adapter4PhotoAccess
+# iOS14Adapter4PhotoAccess
